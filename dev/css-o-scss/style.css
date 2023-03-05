@@ -1,0 +1,180 @@
+/* Estilos para la tipografía */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* Estilos para el encabezado */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.header__logo a {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #9c27be;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header__navbar a {
+  display: inline-block;
+  margin-left: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header__navbar a:hover{
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+/* Estilos para el contenido principal */
+.main__section {
+  padding: 2rem;
+  background-color: #141313;
+  color: #000000;
+}
+
+.main__section--header {
+  background-image: url("../assets/img/header.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  
+}
+
+.main__section-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.main__section-text {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.main__section-btns {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: 2px solid #000000;
+  border-radius: 3px;
+  margin-right: 1rem;
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 0.3s ease-in-out;
+}
+
+.main__section--sau{
+  text-align: center;
+  color: #ffffff;
+}
+
+.main__section-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 2rem;
+}
+
+.main__section-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border: 3px solid #000000;
+  border-radius: 3px;
+  margin-right: 2rem;
+  width: 25%;
+  background: #9c27be;
+  
+}
+
+
+.main__section-box i {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  color: aliceblue;
+  
+}
+
+.main__section-box-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.main__section-box-text {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+/*nosostros  */
+
+.main__section--price{
+  background: url("../assets/img/costos.jpg") no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  text-align: center
+}
+
+.main__section--about{
+text-align: center;
+color: #ffffff;
+}
+
+
+/* Estilos para el pie de página */
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__text {
+  font-size: 1rem;
+}
+
+.footer__menu a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 1rem;
+}
