@@ -47,7 +47,7 @@ body {
 .main__section {
   padding: 2rem;
   background-color: #141313;
-  color: #000000;
+  color: #ffffff;
 }
 
 .main__section--header {
@@ -59,7 +59,7 @@ body {
 }
 
 .main__section-title {
-  font-size: 3.5rem;
+  font-size: 3.1rem;
   font-weight: bold;
   margin-bottom: 1rem;
   text-transform: uppercase;
